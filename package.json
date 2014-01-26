@@ -1,0 +1,29 @@
+{
+  "name": "gulp-toc",
+  "version": "0.1.0",
+  "description": "Generate a Table of Contents for HTML files",
+  "keywords": [
+    "toc",
+    "gulpplugin",
+    "table of contents"
+  ],
+  "repository": "https://github.com/phated/gulp-toc.git",
+  "author": "Blaine Bublitz <blaine@iceddev.com>",
+  "dependencies": {
+    "gulp-util": "~2.2",
+    "through2": "~0.4",
+    "toc": "~0.3.0"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "scripts": {
+    "test": "gulp jshint && tap ./test"
+  },
+  "devDependencies": {
+    "gulp": "~3.4.0",
+    "tap": "~0.4.6",
+    "gulp-jshint": "~1.3.4"
+  }
+}
